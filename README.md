@@ -9,8 +9,8 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: 'MMM-iFrame-GSlides',
-		position: 'bottom_bar',	// This can be any of the regions.
+		module: "MMM-iFrame-GSlides",
+		position: "bottom_bar",	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
 				url: "https://magicmirror.builders/",  // enter the embed url to your Google Slides.
