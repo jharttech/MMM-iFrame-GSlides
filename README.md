@@ -56,7 +56,7 @@ The following properties can be configured:
 		</tr>
 		<tr>
 			<td><code>height</code></td>
-			<td>the width of the iFrame<br>
+			<td>the height of the iFrame<br>
 				<br><b>Example:</b><code>"300px"</code> Using the "full" value here will look at screen size and match for full screen."
 				<br><b>Default value:</b> <code>"full"</code>
 			</td>
