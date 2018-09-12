@@ -1,5 +1,5 @@
 # Module: MMM-iFrame-GSlides
-The `MMM-iFrame-GSlides` module is for MagicMirror. It is a simple way to add an iFrame of published Google Slides Presentation content to your [MagicMirror](https://github.com/MichMich/MagicMirror). It is specifically writtent to work with a google slide presentaton. However, you may be able to use this for other applications such as displaying a fullscreen webpage in an Iframe.  This module will also allow for refreshing of the page at the user set intevals.
+The `MMM-iFrame-GSlides` module is for MagicMirror. It is a simple way to add an iFrame of published Google Slides Presentation content to your [MagicMirror](https://github.com/MichMich/MagicMirror). It is specifically written to work with a google slide presentaton. However, you may be able to use this for other applications such as displaying a fullscreen webpage in an Iframe.  This module will also allow for refreshing of the page at the user set intervals.
 
 
 ### Using the Module for Google Slide Presentation
