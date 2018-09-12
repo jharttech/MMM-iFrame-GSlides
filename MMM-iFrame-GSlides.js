@@ -32,7 +32,7 @@ Module.register("MMM-iFrame-GSlides",{
 	getDom: function() {
 		var iframe = document.createElement("IFRAME");
 		reload = this.config.RefreshInterval
-		refeshPage = this.timedRefresh(RefreshInterval);
+		refeshPage = this.timedRefresh(reload);
 		iframe.style = "border:0"
 		var repeat = true;
 		while(repeat) {
