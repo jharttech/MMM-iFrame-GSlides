@@ -5,8 +5,10 @@ The `MMM-iFrame-GSlides` module is for MagicMirror. It is a simple way to add an
 ### Using the Module for Google Slide Presentation
 Create your google slide then publish it to the web by selecting File > Publish to the web.  Select the Embed option along with your desired slide options.  Select "Start slideshow as soon as the player loads" option and the "Restart the slideshow after the last slide" option.  When you click on the "Publish" button you will be shown a long Iframe URL.  You need to select starting with "https://docs.google.com/presentation/stringofletterstoyourpresentation/embed?start=true&loop=true&delayms=3000" and copy this into your MagicMirror config file as the MMM-iFrame-GSlides modules url option, as shown in the example config.  DO NOT copy the "iframe src=" section or anything after the "delay=3000" section. These are all things that the MMM-iFrame-GSlides will take care of.
 
-### NOTE
+### NOTES
 If you use the default width and height settings of "full", this WILL cover any other modules on the screen UNLESS you set the MMM-iFrame-GSlides module position to fullscreen_below.  If you want only your Google Slide Presentation to be shown and fullscreen, use "fullscreen" as the modules postion.
+
+If you want to remove the slide navigation tool bar from the bottom of your Google Slide Presentation, add "&rm=minimal" to the end of your url before the closing quote.
 
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
